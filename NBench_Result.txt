@@ -1,0 +1,86 @@
+C:\Users\Admin\Source\Repos\ProjectManagerAPI\ProjectMgmt.UnitTest.Harness\bin\Debug>NBench.Runner.exe ProjectMgmt.UnitTest.Harness.dll
+Executing Benchmarks in C:\Users\Admin\Source\Repos\ProjectManagerAPI\ProjectMgmt.UnitTest.Harness\bin\Debug\ProjectMgmt.UnitTest.Harness.dll
+------------ STARTING ProjectMgmt.UnitTest.Harness.APIPeformanceTest+GetParentTasksTest ----------
+--------------- BEGIN WARMUP ---------------
+Elapsed: 00:00:01.0235765
+[Counter] TestCounter - operations: 3,061.00 ,operations: /s 2,990.49 , ns / operations: 3,34,392.85
+--------------- END WARMUP ---------------
+
+--------------- BEGIN WARMUP ---------------
+Elapsed: 00:00:01.0175373
+[Counter] TestCounter - operations: 3,061.00 ,operations: /s 3,008.24 , ns / operations: 3,32,419.90
+--------------- END WARMUP ---------------
+
+--------------- BEGIN WARMUP ---------------
+Elapsed: 00:00:01.0774599
+[Counter] TestCounter - operations: 3,061.00 ,operations: /s 2,840.94 , ns / operations: 3,51,996.05
+--------------- END WARMUP ---------------
+
+--------------- BEGIN RUN ---------------
+Elapsed: 00:00:01.0656324
+[Counter] TestCounter - operations: 3,061.00 ,operations: /s 2,872.47 , ns / operations: 3,48,132.11
+--------------- END RUN ---------------
+
+--------------- BEGIN RUN ---------------
+Elapsed: 00:00:01.0476521
+[Counter] TestCounter - operations: 3,061.00 ,operations: /s 2,921.77 , ns / operations: 3,42,258.12
+--------------- END RUN ---------------
+
+--------------- BEGIN RUN ---------------
+Elapsed: 00:00:01.0427660
+[Counter] TestCounter - operations: 3,061.00 ,operations: /s 2,935.46 , ns / operations: 3,40,661.88
+--------------- END RUN ---------------
+
+--------------- RESULTS: ProjectMgmt.UnitTest.Harness.APIPeformanceTest+GetParentTasksTest ---------------
+--------------- DATA ---------------
+[Counter] TestCounter: Max: 3,061.00 operations, Average: 3,061.00 operations, Min: 3,061.00 operations, StdDev: 0.00 operations
+[Counter] TestCounter: Max / s: 2,935.46 operations, Average / s: 2,909.90 operations, Min / s: 2,872.47 operations, StdDev / s: 33.13 operations
+
+--------------- ASSERTIONS ---------------
+[PASS] Expected [Counter] TestCounter to must be greater than 1,000.00 operations; actual value was 2,909.90 operations.
+[PASS] Expected [Counter] TestCounter to must be greater than 1,000.00 operations; actual value was 3,061.00 operations.
+
+------------ FINISHED ProjectMgmt.UnitTest.Harness.APIPeformanceTest+GetParentTasksTest ----------
+------------ STARTING ProjectMgmt.UnitTest.Harness.APIPeformanceTest+GetTaskControllerTest ----------
+--------------- BEGIN WARMUP ---------------
+Elapsed: 00:00:00.9922046
+[Counter] TestCounter - operations: 842.00 ,operations: /s 848.62 , ns / operations: 11,78,390.26
+--------------- END WARMUP ---------------
+
+--------------- BEGIN WARMUP ---------------
+Elapsed: 00:00:01.0089148
+[Counter] TestCounter - operations: 842.00 ,operations: /s 834.56 , ns / operations: 11,98,236.10
+--------------- END WARMUP ---------------
+
+--------------- BEGIN WARMUP ---------------
+Elapsed: 00:00:01.0177481
+[Counter] TestCounter - operations: 842.00 ,operations: /s 827.32 , ns / operations: 12,08,726.96
+--------------- END WARMUP ---------------
+
+--------------- BEGIN RUN ---------------
+Elapsed: 00:00:00.9486364
+[Counter] TestCounter - operations: 842.00 ,operations: /s 887.59 , ns / operations: 11,26,646.56
+--------------- END RUN ---------------
+
+--------------- BEGIN RUN ---------------
+Elapsed: 00:00:01.0341873
+[Counter] TestCounter - operations: 842.00 ,operations: /s 814.17 , ns / operations: 12,28,250.95
+--------------- END RUN ---------------
+
+--------------- BEGIN RUN ---------------
+Elapsed: 00:00:01.0218516
+[Counter] TestCounter - operations: 842.00 ,operations: /s 823.99 , ns / operations: 12,13,600.48
+--------------- END RUN ---------------
+
+--------------- RESULTS: ProjectMgmt.UnitTest.Harness.APIPeformanceTest+GetTaskControllerTest ---------------
+--------------- DATA ---------------
+[Counter] TestCounter: Max: 842.00 operations, Average: 842.00 operations, Min: 842.00 operations, StdDev: 0.00 operations
+[Counter] TestCounter: Max / s: 887.59 operations, Average / s: 841.92 operations, Min / s: 814.17 operations, StdDev / s: 39.86 operations
+
+--------------- ASSERTIONS ---------------
+[PASS] Expected [Counter] TestCounter to must be greater than 500.00 operations; actual value was 841.92 operations.
+[PASS] Expected [Counter] TestCounter to must be greater than 500.00 operations; actual value was 842.00 operations.
+
+------------ FINISHED ProjectMgmt.UnitTest.Harness.APIPeformanceTest+GetTaskControllerTest ----------
+
+C:\Users\Admin\Source\Repos\ProjectManagerAPI\ProjectMgmt.UnitTest.Harness\bin\Debug>
